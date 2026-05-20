@@ -1,15 +1,16 @@
 #include <iostream>
-using std::cout;
 using std::cin;
+using std::cout;
 using std::endl;
 
-int main (){
+int main()
+{
     double peso;
     double altura;
 
     cout << "CALCULADORA DE PESO" << endl;
     cout << "-------------------" << endl;
-    
+
     cout << "Digite seu peso (kg): " << endl;
     cin >> peso;
 
@@ -21,11 +22,16 @@ int main (){
     cout << "Peso: " << peso << "kg" << endl;
     cout << "Altura: " << altura << "m" << endl;
 
-    if (imc < 18.5) {
+    if (imc < 18.5)
+    {
         cout << "Abaixo do peso" << endl;
-    } else if (imc >= 25) {
+    }
+    else if (imc >= 25)
+    {
         cout << "Acima do peso" << endl;
-    } else {
+    }
+    else
+    {
         cout << "Peso normal" << endl;
     }
 
