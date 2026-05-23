@@ -1,16 +1,18 @@
 #include <iostream>
-using std::cout;
 using std::cin;
+using std::cout;
 using std::endl;
 
-int main() {
+int main()
+{
     int num;
-    long long fatorial = 1; 
+    long long fatorial = 1;
 
     cout << "Digite um numero: ";
     cin >> num;
 
-    for (int i = num; i > 1; i--) {
+    for (int i = num; i > 1; i--)
+    {
         fatorial *= i;
     }
 

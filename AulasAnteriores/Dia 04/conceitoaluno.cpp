@@ -1,7 +1,7 @@
 #include <iostream>
 
 int pedirNota() // Funcao que verifica a nota
- {
+{
     int nota;
     std::cout << "Digite uma nota do aluno: ";
     std::cin >> nota;
@@ -9,20 +9,28 @@ int pedirNota() // Funcao que verifica a nota
 }
 
 char verificarConceito(int nota) // Funcao que verifica o conceito conforme a nota
- {
+{
     char conceito; // Define qual o conceito
-    if (nota >= 9) {
-       return conceito = 'A';
-    } else if (7 <= nota || nota < 9) {
+    if (nota >= 9)
+    {
+        return conceito = 'A';
+    }
+    else if (7 <= nota || nota < 9)
+    {
         return conceito = 'B';
-    } else if (5 <= nota || nota < 7) {
+    }
+    else if (5 <= nota || nota < 7)
+    {
         return conceito = 'C';
-    } else {
+    }
+    else
+    {
         return conceito = 'D';
     }
 }
 
-int main() {
+int main()
+{
     char conceito; // variavel conceito
     int nota;      // variavel nota
 
